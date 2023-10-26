@@ -1,0 +1,8 @@
+.btn {
+  display: inline-block;
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 0px 10px;
+  font-size: 2rem;
+  max-width: 20rem;
+}

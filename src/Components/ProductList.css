@@ -1,0 +1,28 @@
+.product-list-container {
+  min-width: 50rem;
+  width: 70%;
+  height: auto;
+  margin: 10px auto;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: black;
+  transition: transform 0.3s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-list-container:hover {
+  transform: scale(1.03);
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list-container p,
+.product-item p {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
